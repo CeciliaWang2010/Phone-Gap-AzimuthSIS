@@ -3,11 +3,14 @@
 body{
 	margin:0px;
 	padding:0px;
+	color:#333;
+    font-family: "Maven Pro",sans-serif;
 }
 
 #wrapper{
 	margin:0px;
 	padding:0px;
+	background-color:#f1f1f1;
 }
 
 
@@ -15,4 +18,62 @@ body{
 	height:15%;
 	width:100%;
 	background-color:#0082C3;
+}
+
+.loginBox{
+	background-color:#fff;
+	border-style:double solid solid double;
+	border-width:1px 2px 2px 1px;
+	border-color:#cccccc;
+	font-size:16px;
+	height:40%;
+	width:40%;
+	margin:0 auto;
+}
+
+
+.loginBox p{
+	color:#0082c3;
+	font-size:30px;
+	padding:5% 0% 0% 5%;
+	margin:0px;
+}
+
+
+#privacyPolicy h3, #termsOfService h3{
+	color:#0082c3;
+}
+
+
+#powerlink{
+	text-decoration:none;
+	color:#333333;
+	font-size:9px;
+	float:right;
+	margin-right:10%;
+}
+
+
+.loginBox table{
+	padding-left:5%;
+}
+
+
+.loginBox form input{
+	border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #d9d9d9;
+    height: 28px;
+    padding-left: 5px;
+}
+
+
+.loginBox table tr td i{
+	font-size:12px;
+}
+
+
+.loginBox table tr td i a{
+	text-decoration:none;
+	color:#0082c3;
 }
